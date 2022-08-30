@@ -12,7 +12,7 @@
 
 /* Shell_Init */
 
-int main(int ac, char **av, char **env);
+int main(int ac, char **av, char **env)
 void prompt(void);
 void handle(int signals);
 void _EOF(char *buffer);
